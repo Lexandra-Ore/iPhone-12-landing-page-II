@@ -164,6 +164,6 @@ nav ul li a:active {
 .social li a:visited {
   margin: 20px 0;
   display: inline-block;
-  color: "#173b7d";
+  color: #173b7d;
   transform: scale(1.5);
 }
