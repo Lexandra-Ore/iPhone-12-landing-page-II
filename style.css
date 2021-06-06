@@ -45,7 +45,7 @@ nav ul li {
 
 nav ul li a:link,
 nav ul li a:visited {
-  color: #14366b;
+  color: #173b7d;
   display: inline-block;
   text-decoration: none;
   margin-left: 80px;
@@ -75,7 +75,7 @@ nav ul li a:active {
 }
 
 .content .textBox h2 {
-  color: #14366b;
+  color: #173b7d;
   font-weight: 700;
   font-size: 3em;
   line-height: 1em;
@@ -83,11 +83,11 @@ nav ul li a:active {
 }
 
 .content .textBox p {
-  color: #14366b;
+  color: #173b7d;
 }
 
 .content .textBox h2 span {
-  color: #14366b;
+  color: #173b7d;
   font-weight: 700;
   font-size: 2em;
   line-height: 1em;
@@ -97,7 +97,7 @@ nav ul li a:active {
 .content .textBox a:link,
 .content .textBox a:visited {
   color: #fff;
-  background: #143167;
+  background: #173b7d;
   display: inline-block;
   padding: 8px 30px;
   border-radius: 40px;
@@ -164,6 +164,6 @@ nav ul li a:active {
 .social li a:visited {
   margin: 20px 0;
   display: inline-block;
-  color: #fff;
+  color: "#173b7d";
   transform: scale(1.5);
 }
