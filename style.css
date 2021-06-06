@@ -1,0 +1,169 @@
+@import url("https://use.typekit.net/bxe5bnh.css");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: myriad-pro, sans-serif;
+}
+
+section {
+  position: relative;
+  background: #fff;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px;
+  transition: 0.5s;
+}
+
+nav {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 100px;
+}
+
+nav .logo {
+  position: relative;
+  max-width: 80px;
+}
+
+nav ul {
+  display: flex;
+  position: relative;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a:link,
+nav ul li a:visited {
+  color: #14366b;
+  display: inline-block;
+  text-decoration: none;
+  margin-left: 80px;
+  font-weight: 400;
+  font-size: 1.2em;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom 0.2s;
+  padding: 5px;
+}
+
+nav ul li a:hover,
+nav ul li a:active {
+  border-bottom: 2px solid #ff1313;
+}
+
+.content {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content .textBox {
+  position: relative;
+  width: 600px;
+}
+
+.content .textBox h2 {
+  color: #14366b;
+  font-weight: 700;
+  font-size: 3em;
+  line-height: 1em;
+  margin-bottom: 10px;
+}
+
+.content .textBox p {
+  color: #14366b;
+}
+
+.content .textBox h2 span {
+  color: #14366b;
+  font-weight: 700;
+  font-size: 2em;
+  line-height: 1em;
+  text-transform: uppercase;
+}
+
+.content .textBox a:link,
+.content .textBox a:visited {
+  color: #fff;
+  background: #143167;
+  display: inline-block;
+  padding: 8px 30px;
+  border-radius: 40px;
+  margin-top: 40px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.2em;
+  letter-spacing: 1px;
+}
+
+.content .imageBox {
+  width: 600px;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 50px;
+  margin-top: 50px;
+}
+
+.content .imageBox img {
+  max-width: 500px;
+}
+
+.thumbnail {
+  display: flex;
+  position: absolute;
+  left: 55%;
+  bottom: -20%;
+  transform: translateX(-50%);
+}
+
+.thumbnail li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.thumbnail li:hover {
+  transform: translateY(-15px);
+}
+
+.thumbnail li img {
+  max-width: 90px;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+}
+
+.social li {
+  list-style: none;
+}
+
+.social li a:link,
+.social li a:visited {
+  margin: 20px 0;
+  display: inline-block;
+  color: #fff;
+  transform: scale(1.5);
+}
